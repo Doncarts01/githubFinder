@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Finder</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/706f90924a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container my-5 p-4">
+
+        <div class="d-flex justify-content-between mb-4">
+            <div>devfinder</div>
+            <div>LIGHT 
+                <img src="./icons8-sun-24 (2).png" alt="" id="bright" width="20">
+            </div>
+        </div>
+
+        <div class="input-group mb-3" id="searchThing">
+            <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" class="form-control" placeholder="Search Github username..." id="mysearch">
+                <input type="button" value="Search" class="btn btn-primary" id="mybtn">
+        </div>
+
+        <div class="main mt-5 p-4 rounded">
+            <div class="row">
+                <div class="col-3 col-md-2 col-lg-2">
+                    <img src="./no_image.png" id="avatar" alt="" class="rounded-circle" width="100px" height="100px">
+                </div>
+                <div class="col-9 col-md-10 col-lg-10">
+                    <div class="d-flex justify-content-between mb-4">
+                        <div>
+                            <h4 id="name">The Octocat</h4>
+                            <p class="text-primary" id="username">@octocat</p>
+                            <p id="bio" class="text-break font-monospace">This profile has no bio</p>
+                        </div>
+                        <div class="p-1">Joined <span id="date">06 June 2023</span></div>
+                    </div>
+
+                    <div class="otherContent">
+                        <div class="d-flex py-3 justify-content-around bg-dark rounded">
+                            <div>Reops
+                                <h3 class="text-center" id="repo">8</h3>
+                            </div>
+                            <div>Following
+                                <h3 class="text-center" id="following">
+                                    3845
+                                </h3>
+                            </div>
+                            <div>Followers
+                                <h3 class="text-center" id="followers">
+                                    45
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="row text-center my-4">
+                            <div class="col-6"><i class="fa-solid fa-location-dot"></i> <span id="location">San francisco</span></div>
+                            <div class="col-6">
+                                <i class="fa-brands fa-twitter"></i>
+                                <span id="tweet">Not available</span>
+                            </div>
+                            <div class="col-6"> 
+                                <i class="fa-solid fa-link"></i>
+                                <span id="blog">https:..github.blog</span>    
+                            </div>
+                            <div class="col-6">
+                                <i class="fa-regular fa-user"></i>
+                                <a id="link"  href="" target="_blank" class="text-white text-decoration-none">View profile</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+      
+
+
+<script src="./js/jquery3.5.js"></script>
+<script src="./js/script.js"></script>
+
+</body>
+</html>
