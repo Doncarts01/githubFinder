@@ -1,0 +1,39 @@
+body{
+    background-color: #171c35f3;
+    color: white;
+}
+#mysearch{
+    height: 50px;
+    padding-left: 50px;
+    background-color:#2b3255f6;
+    color: white;
+}
+#mysearch::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+#searchThing{
+    position: relative;
+}
+#mybtn{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    z-index: 99;
+}
+#bright:hover{
+    cursor: pointer;
+}
+
+.main{
+    background-color:#2b3255f6;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    z-index: 99;
+    font-size: x-large;
+}
+
